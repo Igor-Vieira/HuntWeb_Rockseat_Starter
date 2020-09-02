@@ -1,0 +1,40 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.techInfo {
+    max-width: 80vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fdeaf0;
+    padding: 80px;
+    border-radius: 80px 0 80px 80px;
+    box-shadow: 50px 50px 0px #2f1a35;
+}
+
+.techInfo h2 {
+    color: #ff5976;
+}
+
+a:-webkit-any-link {
+    color: #ff5976;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+a:-webkit-any-link:hover {
+    color: #fdd8d8;
+}
+
+@media (max-width: 1656px) {
+    .techInfo {
+        box-shadow: 50px 50px 0 #ff5976;
+    }
+}

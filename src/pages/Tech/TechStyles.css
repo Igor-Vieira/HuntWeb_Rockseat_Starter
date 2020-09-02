@@ -1,0 +1,85 @@
+.techBodie {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 350px 350px 350px;
+    justify-content: center;
+    gap: 16px;
+    margin: 20px 0 20px;
+    padding: 0 20px;
+}
+
+.techBodie article {
+    background: #fdeaf0;
+    border-radius: 5px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.techBodie article strong {
+    font-weight: 700;
+    font-size: 28px;
+    color: #ff5976;
+}
+
+.techBodie article p {
+    height: 100px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.techBodie article a {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ff5976;
+    margin-top: 20px;
+    color: #2f1a35;
+    font-weight: 900;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.techBodie article a:hover {
+    background-color: #fdd8d8;
+}
+
+.actions {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.actions .actButton {
+    height: 50px;
+    width: 90px;
+    border-radius: 50px;
+    padding: 10px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5976;
+    color: #fff2f6;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.actions .actButton[disabled] {
+    background-color: #fdd8d8;
+    cursor: default;
+}
+
+.actions .actButton:hover {
+    background-color: #fdd8d8;
+}
+
+.actions .actButton[disabled]:hover {
+    background-color: #fdd8d8;
+}

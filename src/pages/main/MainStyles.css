@@ -1,0 +1,131 @@
+body {
+    background: url('../../images/background.png') no-repeat;
+    background-color: #2f1a35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.header {
+    width: 90vw;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #ff5976;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+span {
+    color: #fff6fa;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+h1:hover {
+    color: #fff6fa;
+}
+
+span:hover {
+    color: #ff5976;
+}
+
+.header .buttonLogin {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #fff6fa;
+    color: #2f1a35;
+    transition: 0.4s;
+}
+
+.header .buttonLogin:hover {
+    background-color: #fdd8d8;
+}
+
+.bodie {
+    width: 90vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bodie h2 {
+    color: #fff6fa;
+    font-weight: 300;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.bodie h3 {
+    color: #ff5976;
+    font-weight: 700;
+    font-size: 65.5px;
+    margin-bottom: 10px;
+}
+
+.bodie .buttonBodie {
+    width: 432px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #fff6fa;
+    color: #2f1a35;
+    transition: 0.4s;
+}
+
+.bodie .buttonBodie:hover {
+    background-color: #fdd8d8;
+}
+
+.technologys {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff6fa;
+    border-radius: 20px;
+}
+
+.techHeader {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 90px 0 90px 0;
+    border-bottom: 1px solid #ff5976;
+}
+
+.techHeader h4 {
+    font-size: 38px;
+    font-weight: 300;
+    color: #2f1a35;
+}
+
+
+
+@media (max-width: 1800px) {
+    .techBodie {
+        max-width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+}
