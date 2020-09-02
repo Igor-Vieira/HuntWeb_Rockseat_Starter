@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Tech from '../Tech'
 
 import './MainStyles.css'
+import { Link } from 'react-router-dom'
 
 export default class Landing extends Component {
     
@@ -16,7 +17,7 @@ export default class Landing extends Component {
                         Hunt
                         <span>Web</span>
                     </h1>    
-                    <div className='buttonLogin'>LOGIN</div>      
+                    <Link to={`Login`} className='buttonLogin'>LOGIN</Link>      
                 </div>
                 <div className='bodie'>
                     <h2>SAIBA MAIS SOBRE NOSSAS</h2>

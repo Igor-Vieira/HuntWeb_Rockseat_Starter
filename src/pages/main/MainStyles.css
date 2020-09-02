@@ -43,9 +43,10 @@ span:hover {
     justify-content: center;
     align-items: center;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 400;
     border-radius: 50px;
     cursor: pointer;
+    text-decoration: none;
     background-color: #fff6fa;
     color: #2f1a35;
     transition: 0.4s;
@@ -53,6 +54,7 @@ span:hover {
 
 .header .buttonLogin:hover {
     background-color: #fdd8d8;
+    color: #2f1a35;
 }
 
 .bodie {
@@ -103,6 +105,7 @@ span:hover {
     flex-direction: column;
     background-color: #fff6fa;
     border-radius: 20px;
+    margin-bottom: 60px;
 }
 
 .techHeader {
